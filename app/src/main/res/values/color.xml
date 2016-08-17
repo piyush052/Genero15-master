@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="app_background">#000</color>
+    <color name="text_color">#fff</color>
+
+    <color name="saffron">#F4B63E</color>
+    <color name="sienna">#EB6460</color>
+    <color name="green">#10b4a5</color>
+    <color name="purple">#7c57e4</color>
+    <color name="pink">#ff4284</color>
+    <color name="orange">#ff8c6a</color>
+
+    <color name="genero_logo_color">#121310</color>
+    <color name="shadow">#AA000000</color>
+    <color name="app_primary">#ac81ed</color>
+    <color name="app_primary_pressed">#cd282be6</color>
+    <color name="app_ripple">#f743cd</color>
+    <drawable name="focused">#f65854</drawable>
+    <drawable name="selected">#FF00FF</drawable>
+
+
+    <color name="blue_particulr">#aaa</color>
+</resources>

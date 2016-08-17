@@ -1,0 +1,175 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/congruent_pentagon"
+    tools:context="com.dexterous.genero15.GeneroAppReferrals">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="30dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="15dp"
+                android:src="@mipmap/ic_launcher" />
+
+            <com.dexterous.genero15.font.Roboto_Medium
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="Your referral code is:"
+                android:textColor="@color/app_background"
+                android:textSize="20sp" />
+
+            <com.dexterous.genero15.font.Roboto_Medium
+                android:id="@+id/refcode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:textColor="@color/app_background"
+                android:textSize="45sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <com.github.clans.fab.FloatingActionButton
+                    android:id="@+id/fab"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginRight="8dp"
+                    android:src="@drawable/share"
+                    fab:fab_colorNormal="@color/app_primary"
+                    fab:fab_colorPressed="@color/app_primary_pressed"
+                    fab:fab_colorRipple="@color/app_ripple" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <com.dexterous.genero15.font.Roboto_Medium
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:text="Your total Earnings so far: "
+                    android:textColor="@color/app_background"
+                    android:textSize="20sp" />
+
+                <com.dexterous.genero15.font.Roboto_Medium
+                    android:id="@+id/refcount"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:textColor="@color/app_background"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <com.dexterous.genero15.font.Roboto_Medium
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="30dp"
+                    android:gravity="center"
+                    android:text="Your Unique Device Id:"
+                    android:textColor="@color/app_background"
+                    android:textSize="20sp" />
+
+                <com.dexterous.genero15.font.Roboto_Medium
+                    android:id="@+id/UID"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:textColor="@color/app_background"
+                    android:textSize="20sp" />
+
+                <com.dexterous.genero15.font.Roboto_Medium
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="30dp"
+                    android:gravity="center"
+                    android:text="Your User Name:"
+                    android:textColor="@color/app_background"
+                    android:textSize="20sp" />
+
+                <com.dexterous.genero15.font.Roboto_Medium
+                    android:id="@+id/userName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:paddingBottom="20dp"
+                    android:textColor="@color/app_background"
+                    android:textSize="20sp" />
+
+
+                <com.dexterous.genero15.font.Roboto_Medium
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="30dp"
+                    android:gravity="center"
+                    android:text="TERMS AND CONDITIONS:"
+                    android:textColor="@color/app_background"
+                    android:textSize="20sp" />
+
+                <com.dexterous.genero15.font.Roboto_Light
+                    android:id="@+id/tcs"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="left"
+                    android:paddingBottom="20dp"
+                    android:text="@string/tnc"
+                    android:textColor="@color/app_background"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

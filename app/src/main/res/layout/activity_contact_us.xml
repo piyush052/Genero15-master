@@ -1,0 +1,147 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/gradient_contact_us"
+    tools:context="com.dexterous.genero15.ContactUs">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <com.dexterous.genero15.font.NorthwoordHigh
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Genero 15"
+        android:textSize="35sp" />
+
+    <com.dexterous.genero15.font.Audiowide_Regular
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="ABES ENGINEERING COLLEGE\nNH-24\nBypass Vijaynagar 201009\n"
+        android:textSize="25sp" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="5dp">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="match_parent"
+
+                        android:src="@drawable/icn_1"
+                        android:layout_weight="1"/>
+                    <com.dexterous.genero15.font.Roboto_Medium
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="4dp"
+
+                        android:text="+91-7838939763\n(General Secretary)"
+                        android:textSize="18sp"
+                        android:textAlignment="center"/>
+
+
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="match_parent"
+
+                        android:src="@drawable/icn_1"
+                        android:layout_weight="1"/>
+                    <com.dexterous.genero15.font.Roboto_Medium
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="4dp"
+                        android:text="+91-9990769709\n(Joint General Secretary)"
+                        android:textSize="18sp"
+                        android:textAlignment="center"/>
+
+
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="match_parent"
+
+                        android:src="@drawable/icn_1"
+                        android:layout_weight="1"/>
+
+                    <com.dexterous.genero15.font.Roboto_Medium
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="4dp"
+                        android:textAlignment="center"
+                        android:text="+91-8010601339\n(Sponsorship)"
+                        android:textSize="18sp" />
+
+
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="match_parent"
+
+                        android:src="@drawable/icn_1"
+                        android:layout_weight="1"/>
+
+                    <com.dexterous.genero15.font.Roboto_Medium
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="4dp"
+                        android:text="+91-9873265084\n(Logistics)"
+                        android:textSize="18sp" />
+
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="match_parent"
+
+                        android:src="@drawable/icn_1"
+                        android:layout_weight="1"/>
+
+                    <com.dexterous.genero15.font.Roboto_Medium
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="4dp"
+                        android:text="+91-9953335638\n(Concert)"
+                        android:textSize="18sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>
+</ScrollView>

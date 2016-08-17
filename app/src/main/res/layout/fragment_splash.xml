@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000">
+
+    <ImageView
+        android:id="@+id/bg_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/bg_pot" />
+
+
+    <com.dexterous.genero15.font.NorthwoordHigh
+        android:id="@+id/genreo_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:maxLines="1"
+        android:paddingLeft="6dp"
+        android:paddingRight="6dp"
+        android:paddingTop="120dp"
+        android:singleLine="true"
+        android:text="GENERO' 15"
+        android:textColor="#000"
+        android:textSize="50sp" />
+</RelativeLayout>

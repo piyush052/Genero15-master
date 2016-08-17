@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_contact_us"
+    android:orientation="vertical"
+    android:paddingBottom="20dp"
+    android:paddingTop="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <com.dexterous.genero15.font.Audiowide_Regular
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:maxLines="1"
+            android:padding="8dp"
+            android:text="Developers"
+            android:textColor="#2f2f2f"
+            android:textSize="28sp"
+            android:layout_gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView_KARTIK"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp" />
+
+            <com.dexterous.genero15.font.Roboto_Medium
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="KARTIK AGARWAL"
+                android:textColor="#fff"
+                android:textSize="18sp"
+
+
+                />
+            <ImageView
+                android:id="@+id/kartik_fb"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/facebook" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView_MAYANK"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp" />
+
+            <com.dexterous.genero15.font.Roboto_Medium
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="MAYANK BAISWAR"
+                android:textColor="#fff"
+                android:textSize="18sp"
+
+
+                />
+            <ImageView
+                android:id="@+id/mayank_fb"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/facebook" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView_MUDIT"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp" />
+
+            <com.dexterous.genero15.font.Roboto_Medium
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="MUDIT GUPTA"
+                android:textColor="#fff"
+                android:textSize="18sp"
+
+
+                />
+
+            <ImageView
+                android:id="@+id/mudit_fb"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/facebook" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView_PIYUSH"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp" />
+
+            <com.dexterous.genero15.font.Roboto_Medium
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="PIYUSH UPADHYAY"
+                android:textColor="#fff"
+                android:textSize="18sp"
+
+
+                />
+            <ImageView
+                android:id="@+id/piyush_fb"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/facebook" />
+        </LinearLayout>
+
+        <com.dexterous.genero15.font.Audiowide_Regular
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:maxLines="1"
+            android:padding="8dp"
+            android:text="Designers"
+            android:textColor="#2f2f2f"
+            android:textSize="28sp" />
+
+        <ImageView
+            android:id="@+id/imageView_PRAKHAR"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp" />
+
+        <com.dexterous.genero15.font.Roboto_Medium
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="PRAKHAR TIWARI"
+            android:textColor="#fff"
+            android:textSize="18sp"
+
+
+            />
+
+        <ImageView
+            android:id="@+id/prakhar_fb"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/facebook" />
+    </LinearLayout>
+</ScrollView>

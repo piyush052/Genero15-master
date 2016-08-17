@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/gipsy_danger/AndroidStudioProjects/Genero15-master/libraryTwoPanels/build/intermediates/res/merged/androidTest/debug/layout/left_fragment.xml",
+        "source": "/home/gipsy_danger/AndroidStudioProjects/Genero15-master/libraryTwoPanels/build/intermediates/bundles/debug/res/layout/left_fragment.xml"
+    },
+    {
+        "merged": "/home/gipsy_danger/AndroidStudioProjects/Genero15-master/libraryTwoPanels/build/intermediates/res/merged/androidTest/debug/layout/simple_list_item_1.xml",
+        "source": "/home/gipsy_danger/AndroidStudioProjects/Genero15-master/libraryTwoPanels/build/intermediates/bundles/debug/res/layout/simple_list_item_1.xml"
+    },
+    {
+        "merged": "/home/gipsy_danger/AndroidStudioProjects/Genero15-master/libraryTwoPanels/build/intermediates/res/merged/androidTest/debug/layout/right_fragment.xml",
+        "source": "/home/gipsy_danger/AndroidStudioProjects/Genero15-master/libraryTwoPanels/build/intermediates/bundles/debug/res/layout/right_fragment.xml"
+    },
+    {
+        "merged": "/home/gipsy_danger/AndroidStudioProjects/Genero15-master/libraryTwoPanels/build/intermediates/res/merged/androidTest/debug/layout/two_panels_activity_main.xml",
+        "source": "/home/gipsy_danger/AndroidStudioProjects/Genero15-master/libraryTwoPanels/build/intermediates/bundles/debug/res/layout/two_panels_activity_main.xml"
+    }
+]

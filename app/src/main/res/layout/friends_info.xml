@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:orientation="vertical">
+
+    <com.dexterous.genero15.coreteam.views.FontTextView
+        android:id="@+id/nickname"
+        style="@style/TextView.Nickname" />
+
+    <LinearLayout
+        android:id="@+id/interestsPrimary"
+        style="@style/LinearLayout.Interests"
+        android:layout_below="@+id/nickname">
+
+        <com.dexterous.genero15.coreteam.views.FontTextView
+            android:id="@+id/interest_1"
+            android:gravity="center"
+            style="@style/TextView.Interest" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/interestsSecondary"
+        style="@style/LinearLayout.Interests"
+        android:layout_below="@+id/interestsPrimary"
+        android:layout_marginTop="5dp">
+
+        <com.dexterous.genero15.coreteam.views.FontTextView
+            android:id="@+id/interest_4"
+            android:gravity="center"
+            style="@style/TextView.Interest" />
+
+    </LinearLayout>
+
+</RelativeLayout>

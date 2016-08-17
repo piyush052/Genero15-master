@@ -1,0 +1,404 @@
+<com.dexterous.genero15.DiscrollView.MyDiscrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:discrollve="http://schemas.android.com/apk/res-auto"
+    xmlns:ripple="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6C7A89">
+
+    <com.flavienlaurent.discrollview.lib.DiscrollViewContent xmlns:custom="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#f65854">
+
+
+        <!-- here you put discrollvable views -->
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="600dp"
+            android:background="@drawable/splash2" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="#ffffff" />
+
+        <com.dexterous.genero15.DiscrollView.DiscrollvableLastLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@android:color/holo_blue_light"
+            android:gravity="center"
+            android:padding="4dp">
+
+            <com.dexterous.genero15.font.NorthwoordHigh
+                android:id="@+id/lastView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:alpha="0"
+                android:maxLines="1"
+                android:text="15, 16 \u0026 17"
+                android:textColor="#fff"
+                android:textSize="50sp"
+                android:translationX="-100dp"
+                android:translationY="-100dp" />
+
+            <com.dexterous.genero15.font.NorthwoordHigh
+                android:id="@+id/lastView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lastView1"
+                android:alpha="0"
+                android:gravity="center"
+                android:maxLines="1"
+                android:text="October, 2015"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="70sp"
+                android:translationX="100dp"
+                android:translationY="100dp" />
+
+        </com.dexterous.genero15.DiscrollView.DiscrollvableLastLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="#ffffff" />
+
+
+        <com.dexterous.genero15.DiscrollView.DiscrollvablePathLayout
+            android:id="@+id/about_click"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#2a2a2a"
+            android:padding="4px">
+
+            <com.dexterous.genero15.font.Audiowide_Regular
+                android:id="@+id/about"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:maxLines="1"
+                android:paddingBottom="4dp"
+                android:paddingTop="4dp"
+                android:text="About ABES and GENERO"
+                android:textColor="#ffffff" />
+
+        </com.dexterous.genero15.DiscrollView.DiscrollvablePathLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="#ffffff" />
+
+
+        <ImageView xmlns:discrollve="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/events"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:src="@drawable/events"
+            discrollve:discrollve_alpha="true"
+            discrollve:discrollve_translation="fromRight" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="#ffffff" />
+
+
+        <com.dexterous.genero15.font.Audiowide_Regular
+            android:id="@+id/events_text"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:maxLines="1"
+            android:padding="5dp"
+            android:text="Special Events"
+            android:textColor="#ffffff"
+            discrollve:discrollve_fromBgColor="#3f3f3f"
+            discrollve:discrollve_toBgColor="#2a2a2a" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="#ffffff" />
+
+        <com.andexert.library.RippleView
+            android:id="@+id/more"
+            rv_centered="true"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="5dp">
+
+            <com.dexterous.genero15.font.Audiowide_Regular
+                android:id="@+id/spl1"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:maxLines="1"
+                android:padding="5dp"
+                android:text="BATTLE OF BANDS"
+                android:textColor="#ffffff" />
+
+        </com.andexert.library.RippleView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:background="#ffffff" />
+
+        <com.andexert.library.RippleView
+            android:id="@+id/m3ore"
+            rv_centered="true"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="5dp">
+
+            <com.dexterous.genero15.font.Audiowide_Regular
+                android:id="@+id/spl2"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:maxLines="1"
+                android:padding="5dp"
+                android:text="LIVE CONCERT"
+                android:textColor="#ffffff" />
+        </com.andexert.library.RippleView>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:background="#ffffff" />
+
+        <com.andexert.library.RippleView
+            android:id="@+id/mor2e"
+            rv_centered="true"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="5dp">
+
+            <com.dexterous.genero15.font.Audiowide_Regular
+                android:id="@+id/spl3"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:maxLines="1"
+                android:padding="5dp"
+                android:text="DALAL STREET"
+                android:textColor="#ffffff" />
+        </com.andexert.library.RippleView>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:background="#ffffff" />
+
+        <com.andexert.library.RippleView
+            android:id="@+id/more1"
+            rv_centered="true"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="5dp">
+
+            <com.dexterous.genero15.font.Audiowide_Regular
+                android:id="@+id/spl4"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:maxLines="1"
+                android:padding="5dp"
+                android:text="THEATRE"
+                android:textColor="#ffffff" />
+        </com.andexert.library.RippleView>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="#ffffff" />
+
+
+        <com.dexterous.genero15.font.Audiowide_Regular
+            android:id="@+id/webView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#2f2f2f"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:maxLines="1"
+            android:padding="20dp"
+            android:text="Register"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            discrollve:discrollve_alpha="true"
+            discrollve:discrollve_translation="fromLeft" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="#ffffff" />
+
+
+        <com.dexterous.genero15.DiscrollView.DiscrollvablePathLayoutReferAndEarn
+            android:id="@+id/refrErn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_blue_light"
+            android:padding="10dp">
+
+            <com.dexterous.genero15.font.Audiowide_Regular
+                android:id="@+id/refrErn2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:maxLines="1"
+                android:text="Refer And Earn Credits"
+                android:textColor="@android:color/background_light"
+                android:textSize="20sp" />
+
+        </com.dexterous.genero15.DiscrollView.DiscrollvablePathLayoutReferAndEarn>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="#ffffff" />
+
+
+        <com.dexterous.genero15.font.Audiowide_Regular
+            android:id="@+id/contact_us"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#2f2f2f"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:maxLines="1"
+            android:padding="20dp"
+            android:text="CONTACT US"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            discrollve:discrollve_alpha="true"
+            discrollve:discrollve_translation="fromRight" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="#ffffff" />
+
+
+        <com.dexterous.genero15.DiscrollView.DiscrollvablePathLayoutCoreTeam
+            android:id="@+id/coreteam"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_blue_light"
+            android:padding="10dp">
+
+            <com.dexterous.genero15.font.Audiowide_Regular
+                android:id="@+id/core_team"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:maxLines="1"
+                android:text="GENERO CORE TEAM"
+                android:textColor="@android:color/background_light"
+                android:textSize="20sp" />
+
+        </com.dexterous.genero15.DiscrollView.DiscrollvablePathLayoutCoreTeam>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="#ffffff" />
+
+
+        <com.dexterous.genero15.font.Audiowide_Regular
+            android:id="@+id/developers"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#f65854"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:maxLines="1"
+            android:padding="20dp"
+            android:text="Developers"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            discrollve:discrollve_alpha="true"
+            discrollve:discrollve_translation="fromBottom" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="5">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:src="@drawable/spnorship1" />
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:src="@drawable/spnorship2" />
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:src="@drawable/spnorship3" />
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:src="@drawable/spnorship4" />
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:src="@drawable/spnorship5" />
+
+        </LinearLayout>
+
+    </com.flavienlaurent.discrollview.lib.DiscrollViewContent>
+</com.dexterous.genero15.DiscrollView.MyDiscrollView>
